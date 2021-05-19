@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+ width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.023);
+}
+.header_links{
+   padding-right: 4px;
+}
+.link{
+padding: 18px !important;
+}
+.logo{
+    margin-left: 10px;
+    font-weight: 00;
+    font-size: 35px !important;
+}

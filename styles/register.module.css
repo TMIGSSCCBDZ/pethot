@@ -1,0 +1,38 @@
+.register{
+    display: flex;
+    
+    width: 100%;
+    justify-content: center;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.form{
+    display: flex;
+ flex-direction: column;
+ padding: 10px;
+ justify-content: center;
+ height: auto;
+ align-items: center; 
+ box-shadow:  0 0 20px rgba(88, 155, 255, 0.493);
+ width: clamp(200px ,60%,350px) ;
+}
+.have_account{
+    display: flex;
+    padding: 5px;
+    
+    align-items: center;
+    margin-top: 30px;
+}
+.have_account_text,.have_account_link{
+    color: rgb(97, 97, 97) !;
+    font-size: 11.4px;
+}
+.have_account_link{
+    font-weight: 700;
+    cursor: pointer;
+}
+.google_sign_up{
+    display: flex;
+    flex-direction: column;
+ 
+}
